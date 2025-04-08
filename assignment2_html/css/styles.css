@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(243, 147, 58);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container{
+    background-color: rgb(71, 52, 38);
+    width: 1200px;
+    margin: 20px auto;
+    
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    
+    padding: 20px;
+}
+
+header {
+    text-align: left;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: overline;
+    font-style: italic;
+}
+
+nav {
+    text-align: right;
+    margin: 20px 0; 
+}
+nav a:link, nav a:visited {
+        background-color: rgb(255, 252, 238);
+        color: black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        outline-style: outset;
+        outline-width: 5px;
+        outline-color: rgb(184, 92, 6);
+        display: inline-block;
+}
+nav a:hover, nav a:active {
+    background-color: rgb(255, 252, 238);
+        color:black;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+        text-decoration: none;
+        outline-style: inset;
+        outline-width: 5px;
+        outline-color: rgb(184, 92, 6);
+        display: inline-block;
+}
+
+a.one:link, a.one:visited, a.one:hover {color: black;}
+ 
+footer {
+    outline-style: double;
+    outline-color:rgb(153, 76, 4);
+    padding: 5px;
+    text-align: center;
+    margin-right: 1050px;
+    margin-top: 10px;
+}
+
+h1, h2, h3 {
+    color:rgb(255, 252, 238);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+h4 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-style: italic;
+}
+h5 {
+    text-align: center;
+}
+h6 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+p.para {
+    outline-style: outset;
+    outline-width: 10px;
+    margin: 20px;
+    outline-color:rgb(153, 76, 4);
+    padding: 10px;
+    background-color: rgb(255, 252, 238);
+}
+p.info {
+    outline-style: double;
+    outline-color:rgb(153, 76, 4);
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ul {
+    outline-style: double;
+    outline-color:rgb(153, 76, 4);
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
