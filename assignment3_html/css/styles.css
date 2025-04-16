@@ -120,7 +120,7 @@ nav a:hover {
 }
 
 
-#two-col {
+.two-col {
     display: flex;
     align-items: stretch;
 }
