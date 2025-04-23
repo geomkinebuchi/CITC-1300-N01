@@ -26,6 +26,7 @@ header {
     font-style: italic;
 }
 
+
 nav {
     margin: 20px 0;
     height: 40px;
@@ -124,7 +125,10 @@ nav a:hover {
     display: flex;
     align-items: stretch;
 }
-
+.two-col-ab{
+    display: flex;
+    align-items: stretch;
+}
 .col {
     flex: 1;
     padding: 20px;
