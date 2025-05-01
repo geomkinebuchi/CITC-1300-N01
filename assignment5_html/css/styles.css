@@ -1,0 +1,135 @@
+main {
+    font-size: 16px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#container{
+    max-width: 75%;
+    margin: 5% auto;
+    padding: 0;
+    border: 0.5em solid white;         /* Thick solid border */
+    border-radius: 1em;               /* Rounded corners */
+    background-color: #000000;
+    box-sizing: border-box;
+    border-style: solid;
+    position: relative;
+    
+}
+header { 
+    background-color: white;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+}
+nav {
+    position: relative; /* Positioning relative to the container */
+    display: flex;
+    justify-content: flex-start; /* Align tabs to the left */
+    padding: 0;
+    z-index: 10;
+    background-color: white;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.tabs {
+    display: flex; /* Layout the tabs in a row */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* Align tabs to the right */
+}
+
+.tab {
+    background-color: black; /* Same color as the main */
+    border-radius: 5px 5px 0 0; /* Rounded top corners */
+    margin: 0 5px;
+    padding: 10px 20px;
+    position: relative;
+    transform: translateY(-2px);
+    cursor: pointer;
+    box-shadow: none; /* Gives the appearance of floating */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.tab.active {
+    background-color: black;
+    transform: translateY(0);
+   margin-bottom: 0;
+    box-shadow: none;
+}
+
+.tab:hover {
+    background-color: #3a3939; 
+    transform: translateY(-4px); 
+}
+.tab.active:hover{
+    transform: translateY(0);
+    background-color: black;
+}
+.tab a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.tab.active a {
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+  
+h1{
+    margin: 50px auto ;
+    text-decoration: underline;
+    
+}
+.info {
+    position: relative; /* Allows positioning of elements inside */
+    border: .1em dashed white; /* Border around the entire paragraph */
+    border-radius: 1em; /* Rounded corners for the border */
+    padding: 25px 75px; 
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent background */
+}
+
+.info h2 {
+    position: absolute; /* Allows positioning of the heading relative to its parent */
+    top: -40px; /* Moves the heading upwards, adjusting as needed */
+    left: 50%; /* Centers the heading horizontally */
+    transform: translateX(-50%); /* Ensures the heading is perfectly centered */
+    background-color: rgb(0, 0, 0); /* Matches background to hide border behind text */
+    padding: 5px 10px; /* Padding around the heading to give space */
+    color: white; /* White text color */
+    z-index: 1; /* Puts the heading above the border */
+    white-space: nowrap;
+}
+img { 
+    width: 75%;
+    display: block;  
+    margin: 0 auto; 
+    border: .1em solid white;
+    border-radius: .5em;
+}
+.curse {
+    padding: 20px;
+    margin-top: 50px;
+}
+.death {
+    color: green;
+    text-align: right;
+    font-size: .85rem;
+}
+.list_death {
+    border: none; 
+    height: 2px; 
+    background-color: #44424294; 
+    width: 80%; 
+    margin: 20px auto;
+}

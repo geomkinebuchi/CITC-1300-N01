@@ -5,4 +5,5 @@
  <li><a href="assignment2_html/index.html" target="_blank">Assignment 2 - HTML5 and Intro to CSS</a></li>
  <li><a href="assignment3_html/pitch.html" target="_blank">Assignment 3 - Advanced CSS</a></li>
  <li><a href="assignment4_html/pitch.html" target="_blank">Assignment 4 - Responsive Web Design</a></li>
+ <li><a href="assignment5_html/kennedy_curse.html" target="_blank">Assignment 5 - The Kennedy Family Conspiracy</a></li>
 </ul>
