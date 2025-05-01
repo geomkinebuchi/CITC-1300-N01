@@ -4,28 +4,30 @@ main {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#container{
+#container {
     max-width: 75%;
     margin: 5% auto;
     padding: 0;
-    border: 0.5em solid white;         /* Thick solid border */
-    border-radius: 1em;               /* Rounded corners */
+    border: 0.5em solid white;
+    border-radius: 1em;
     background-color: #000000;
     box-sizing: border-box;
     border-style: solid;
     position: relative;
-    
+
 }
-header { 
+
+header {
     background-color: white;
     padding: 20px;
     margin: 0;
     position: relative;
 }
+
 nav {
-    position: relative; /* Positioning relative to the container */
+    position: relative;
     display: flex;
-    justify-content: flex-start; /* Align tabs to the left */
+    justify-content: flex-start;
     padding: 0;
     z-index: 10;
     background-color: white;
@@ -34,22 +36,22 @@ nav {
 }
 
 .tabs {
-    display: flex; /* Layout the tabs in a row */
+    display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
-    /* Align tabs to the right */
+
 }
 
 .tab {
-    background-color: black; /* Same color as the main */
-    border-radius: 5px 5px 0 0; /* Rounded top corners */
+    background-color: black;
+    border-radius: 5px 5px 0 0;
     margin: 0 5px;
     padding: 10px 20px;
     position: relative;
     transform: translateY(-2px);
     cursor: pointer;
-    box-shadow: none; /* Gives the appearance of floating */
+    box-shadow: none;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
@@ -57,24 +59,26 @@ nav {
 .tab.active {
     background-color: black;
     transform: translateY(0);
-   margin-bottom: 0;
+    margin-bottom: 0;
     box-shadow: none;
 }
 
 .tab:hover {
-    background-color: #3a3939; 
-    transform: translateY(-4px); 
+    background-color: #3a3939;
+    transform: translateY(-4px);
 }
-.tab.active:hover{
+
+.tab.active:hover {
     transform: translateY(0);
     background-color: black;
 }
+
 .tab a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
-    
+
 }
 
 .tab.active a {
@@ -84,52 +88,98 @@ nav {
 main {
     padding: 20px;
 }
-  
-h1{
-    margin: 50px auto ;
+
+h1 {
+    margin: 50px auto;
     text-decoration: underline;
-    
+
 }
+
 .info {
-    position: relative; /* Allows positioning of elements inside */
-    border: .1em dashed white; /* Border around the entire paragraph */
-    border-radius: 1em; /* Rounded corners for the border */
-    padding: 25px 75px; 
+    position: relative;
+    border: .1em dashed white;
+    border-radius: 1em;
+    padding: 25px 75px;
     margin: 20px;
-    background-color: rgba(0, 0, 0, 0.6); /* Slightly transparent background */
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .info h2 {
-    position: absolute; /* Allows positioning of the heading relative to its parent */
-    top: -40px; /* Moves the heading upwards, adjusting as needed */
-    left: 50%; /* Centers the heading horizontally */
-    transform: translateX(-50%); /* Ensures the heading is perfectly centered */
-    background-color: rgb(0, 0, 0); /* Matches background to hide border behind text */
-    padding: 5px 10px; /* Padding around the heading to give space */
-    color: white; /* White text color */
-    z-index: 1; /* Puts the heading above the border */
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    color: white;
+    z-index: 1;
+    float: left;
     white-space: nowrap;
 }
-img { 
-    width: 75%;
-    display: block;  
-    margin: 0 auto; 
-    border: .1em solid white;
-    border-radius: .5em;
+
+.img-set-center{
+    margin: 2vw auto;
+    display: block;
+    width: 50vw;
+    border: 2px solid #444;
+    /* border around the whole container */
+    border-radius: 8px;
+    overflow: hidden;
+    border-color: white;
+    background-color: rgba(128, 128, 128, 0.562);
+    
+   
+    
+   
 }
+.img-set-left {
+    margin: 10px;
+    width: 20vw;
+float: left;
+    border: 2px solid #444;
+    /* border around the whole container */
+    border-radius: 8px;
+    overflow: hidden;
+    border-color: white;
+    background-color: rgba(128, 128, 128, 0.562);
+    color: green;
+    margin: 0 1vw;
+}
+
+img {
+    width: 100%;
+    display: block;
+  
+    
+}
+
+.img-cap {
+    background-color: #222;
+    /* banner background */
+    color: white;
+    /* caption text color */
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin: 0 auto;
+
+}
+
 .curse {
     padding: 20px;
     margin-top: 50px;
 }
+
 .death {
     color: green;
     text-align: right;
     font-size: .85rem;
 }
+
 .list_death {
-    border: none; 
-    height: 2px; 
-    background-color: #44424294; 
-    width: 80%; 
+    border: none;
+    height: 2px;
+    background-color: #44424294;
+    width: 80%;
     margin: 20px auto;
 }
